@@ -1,0 +1,27 @@
+.main-body {
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-around;
+  align-items: center;
+  background-color: rgb(100,0,100,100);
+}
+#email{
+  margin-left: 25px;
+
+}
+
+#email:hover{
+  background-color: #D3D3D3;
+
+}
+#password:hover{
+  background-color: #D3D3D3;
+
+}
+
+.form {
+  padding: 10px;
+  padding-top: 15px;
+  border: 2px #D3D3D3 solid;
+  border-radius: 2px;
+}
