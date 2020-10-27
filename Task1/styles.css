@@ -3,7 +3,11 @@
 }
 
 .main-body  {
-  
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:center;
+
 }
 .table1 {
   margin-top: 20px;
@@ -23,7 +27,6 @@
   justify-content: center;
   text-align: center;
 }
-
 
 .akif {
   height: 100px;
