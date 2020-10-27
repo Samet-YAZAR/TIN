@@ -2,6 +2,39 @@
   box-sizing: border-box;
 }
 
-body {
-  color: black;
+.main-body  {
+  
+}
+.table1 {
+  margin-top: 20px;
+  border: 1;
+  width:600px;
+  height:200px;
+  border:5px solid black;
+  justify-content: center;
+  text-align: center;
+}
+
+.table2 {
+  margin-top: 20px;
+  width:600px;
+  height:200px;
+  border:5px solid black;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.akif {
+  height: 100px;
+  width: 100px;
+}
+.table2 ,th  {
+  //padding: 10px;
+  border: 1px solid black;
+
+      }
+.table2 ,td  {
+  padding: 10px;
+  border: 1px solid black;
 }
