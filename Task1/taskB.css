@@ -2,12 +2,16 @@
   color : grey;
 
 }
+.h1 {
+  position:;
+}
 .main-body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   //justify-content: space-around;
   align-items: center;
   background-color: rgb(100,0,100,100);
+  padding:20px;
 }
 #email{
   margin-left: 25px;
@@ -18,10 +22,12 @@
   background-color: white;
 
 }
-.form , .checkbox,.select-gender, .select-age, .radio-button  {
+.form , .checkbox,.select-gender, .select-age, .radio-button,
+.drop-down  {
   color: grey;
   padding: 10px;
-  padding-top: 15px;
+  padding-right: 15px;
+  margin: 20px;
   border: 2px #D3D3D3 solid;
   border-radius: 2px;
 }
