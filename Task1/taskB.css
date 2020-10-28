@@ -41,3 +41,7 @@
 #TIN,#cars {
   margin:10px;
 }
+.main-page-div {
+  border: 2px #D3D3D3;
+  border-radius: 1px;
+}
