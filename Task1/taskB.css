@@ -1,4 +1,4 @@
-.h1 {
+.h1, .radio-h1 {
   color : grey;
 
 }
@@ -18,17 +18,17 @@
   background-color: white;
 
 }
-.form , .checkbox {
+.form , .checkbox,.select-gender, .select-age, .radio-button  {
   color: grey;
   padding: 10px;
   padding-top: 15px;
   border: 2px #D3D3D3 solid;
   border-radius: 2px;
 }
-#email, #password, #submit{
+#email, #password, .submit{
   background-color: grey;
 }
-.checkbox {
+.checkbox, .radio-button  {
   margin-top: 10px;
   padding: 20px;
 }
