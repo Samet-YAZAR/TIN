@@ -1,4 +1,4 @@
-.h1, .radio-h1 {
+.h1, .radio-h1,.text-area-h1 {
   color : grey;
 
 }
@@ -23,7 +23,7 @@
 
 }
 .form , .checkbox,.select-gender, .select-age, .radio-button,
-.drop-down  {
+.drop-down, .text-area  {
   color: grey;
   padding: 10px;
   padding-right: 15px;
@@ -37,4 +37,7 @@
 .checkbox, .radio-button  {
   margin-top: 10px;
   padding: 20px;
+}
+#TIN,#cars {
+  margin:10px;
 }
