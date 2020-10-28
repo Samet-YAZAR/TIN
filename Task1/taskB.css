@@ -3,10 +3,10 @@
 
 }
 .h1 {
-  position:;
+  text-align: center;
 }
 .main-body {
-  display: flex;
+  display: block;
   flex-direction: row;
   //justify-content: space-around;
   align-items: center;
@@ -23,7 +23,7 @@
 
 }
 .form , .checkbox,.select-gender, .select-age, .radio-button,
-.drop-down, .text-area  {
+.drop-down, .text-area, .submit-reset  {
   color: grey;
   padding: 10px;
   padding-right: 15px;
@@ -31,7 +31,7 @@
   border: 2px #D3D3D3 solid;
   border-radius: 2px;
 }
-#email, #password, .submit{
+#email, #password, .submit, .reset{
   background-color: grey;
 }
 .checkbox, .radio-button  {
