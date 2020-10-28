@@ -11,17 +11,21 @@
 }
 
 #email:hover{
-  background-color: #D3D3D3;
+  background-color: white;
 
 }
 #password:hover{
-  background-color: #D3D3D3;
+  background-color: white;
 
 }
 
 .form {
+  color: grey;
   padding: 10px;
   padding-top: 15px;
   border: 2px #D3D3D3 solid;
   border-radius: 2px;
+}
+#email, #password, #submit{
+  background-color: grey;
 }
