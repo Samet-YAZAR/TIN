@@ -1,10 +1,13 @@
+
 .h1, .radio-h1,.text-area-h1 {
   color : grey;
 
 }
+
 .h1 {
   text-align: center;
 }
+
 .main-body {
   display: flex;
   flex-direction: column;
@@ -13,9 +16,9 @@
   background-color: rgb(200);
   padding:20px;
 }
+
 #email{
   margin-left: 25px;
-
 }
 
 #email:hover, #password:hover{
@@ -31,18 +34,21 @@
   border: 2px #D3D3D3 solid;
   border-radius: 2px;
 }
+
 #email, #password, .submit, .reset{
   background-color: white;
 }
+
 .checkbox, .radio-button  {
   margin-top: 10px;
-  padding: 20px;
+  padding: 20px;s
 }
+
 #TIN,#cars {
   margin:10px;
 }
+
 .container {
   border: blue;
   background-color: pink;
-}
 }
