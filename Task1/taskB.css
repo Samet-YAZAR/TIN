@@ -6,11 +6,11 @@
   text-align: center;
 }
 .main-body {
-  display: block;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   //justify-content: space-around;
   align-items: center;
-  background-color: rgb(100,0,100,100);
+  background-color: rgb(200);
   padding:20px;
 }
 #email{
@@ -19,7 +19,7 @@
 }
 
 #email:hover, #password:hover{
-  background-color: white;
+  background-color: grey;
 
 }
 .form , .checkbox,.select-gender, .select-age, .radio-button,
@@ -32,7 +32,7 @@
   border-radius: 2px;
 }
 #email, #password, .submit, .reset{
-  background-color: grey;
+  background-color: white;
 }
 .checkbox, .radio-button  {
   margin-top: 10px;
@@ -41,7 +41,8 @@
 #TIN,#cars {
   margin:10px;
 }
-.main-page-div {
-  border: 2px #D3D3D3;
-  border-radius: 1px;
+.container {
+  border: blue;
+  background-color: pink;
+}
 }
