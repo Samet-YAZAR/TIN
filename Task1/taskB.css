@@ -6,11 +6,11 @@
   text-align: center;
 }
 .main-body {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  flex-direction: row;
   //justify-content: space-around;
   align-items: center;
-  background-color: rgb(100,0,100,0);
+  background-color: rgb(100,0,100,100);
   padding:20px;
 }
 #email{
@@ -44,55 +44,4 @@
 .main-page-div {
   border: 2px #D3D3D3;
   border-radius: 1px;
-}
-.input-group {
-    display: flex;
-    flex-direction: column;
-    color:white;
-    font-weight: lighter;
-    margin-bottom: 20px;
-
-
-}
-
-.input-group label {
-    margin-bottom: .8px;
-    font-weight: lighter;
-    font-size:1.5em;
-    margin-bottom: 7px;
-
-}
-
-
-.input-group input {
-    background-color: hsla(200, 2%, 31%, 0.6);;
-    padding: .50em .25em;
-    border: 1px solid hsla(200, 100%, 6%);
-    outline: none;
-    color:white;
-    border-radius: 5px;
-    font-weight: lighter;
-
-}
-
-.input-group input:focus {
-    border: 1px solid hsl(202, 100%, 56%);
-}
-.login-button {
-    background-color: hsla(200, 2%, 31%, 0.6);
-    border: 1px solid hsl(202, 100%, 56%);
-    margin-bottom: 20px;
-    color: white;
-    font-size: larger;
-    font-weight: lighter;
-    padding:5px 12px;
-    cursor: pointer;
-    width: 100%;
-}
-.input-group input:hover{
-    background-color: hsla(195, 32%, 30%, 0.6);
-}
-
-.login-button:hover{
-    background-color: hsla(194, 28%, 24%, 0.6);
 }
