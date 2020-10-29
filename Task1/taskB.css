@@ -13,7 +13,7 @@
   flex-direction: column;
   //justify-content: space-around;
   align-items: center;
-  background-color: rgb(200);
+  background-color: black;
   padding:20px;
 }
 
@@ -25,6 +25,7 @@
   background-color: grey;
 
 }
+
 .form , .checkbox,.select-gender, .select-age, .radio-button,
 .drop-down, .text-area, .submit-reset  {
   color: grey;
@@ -46,9 +47,4 @@
 
 #TIN,#cars {
   margin:10px;
-}
-
-.container {
-  border: blue;
-  background-color: pink;
 }
