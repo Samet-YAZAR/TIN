@@ -14,7 +14,10 @@
   background: #ADD8E6;
 
 }
-
+.list2 li{
+  list-style-type: '👉';
+  padding-inline-start: 1ch;
+}
 .main-body {
   display: flex;
   flex-direction: column;
