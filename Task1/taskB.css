@@ -1,20 +1,64 @@
 
-.h1, .radio-h1,.text-area-h1 {
-  color : grey;
+.taskb, .radio-h1,.text-area-h1 {
+  color : black;
 
 }
 
 .h1 {
   text-align: center;
+
+}
+.taskb{
+
+  border: 1px grey solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 45%;
+  background-color: #FF8C00;
 }
 
-.main-body {
-  display: flex;
-  flex-direction: column;
-  //justify-content: space-around;
-  align-items: center;
-  background-color: black;
-  padding:20px;
+.header{
+  grid-area: header;
+  background-color: #FF8C00;
+}
+.form{
+  grid-area: form;
+  background-color: #FF8C00;
+}
+.checkbox{
+  grid-area: checkbox;
+  background-color: #FF8C00;
+}
+.radio-button{
+  grid-area: radio-button;
+  background-color: #FF8C00;
+}
+.drop-down,.drop-label{
+  grid-area: drop-down;
+  background-color: #FF8C00;
+}
+.text-area{
+  grid-area: text-area;
+  background-color: #FF8C00;
+}
+.submit-reset{
+  grid-area: submit-reset;
+  background-color: #FF8C00;
+}
+.container {
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: auto auto auto;
+
+  grid-template-areas:
+  "form checkbox submit-reset "
+  "header header header "
+  "text-area radio-button drop-down ";
+background-color: black;
+
+  /* 300px 80px 210px 210px */
 }
 
 #email{
@@ -28,7 +72,7 @@
 
 .form , .checkbox,.select-gender, .select-age, .radio-button,
 .drop-down, .text-area, .submit-reset  {
-  color: grey;
+  color: black;
   padding: 10px;
   padding-right: 15px;
   margin: 20px;
