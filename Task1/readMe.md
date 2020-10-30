@@ -17,7 +17,7 @@ formatting tags
 bottom row should contain a single cell with 2 column width,
 also containing text
 
-![Task1](Assets\assignmentA_view.PNG)
+![Task1](Assets/assignmentA_view.PNG)
 
 # Assignment B
 
