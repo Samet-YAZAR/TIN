@@ -17,6 +17,7 @@ formatting tags
 bottom row should contain a single cell with 2 column width,
 also containing text
 
+![Task1](D:\Git\Projects\TIN\Task1\Assets\assignmentA_view.PNG)
 # Assignment B
 
 Create a HTML page that meets the following requirements:
