@@ -71,6 +71,8 @@ clear properties can be used to create double column text layout.
 The HTML page should contain several paragraphs of text and several images,
 text should wrap around the images.
 
+![Task1](Assets\TaskE.PNG)
+
 # Assignment F
 
 Create a HTML page and CSS file meeting the following requirements:
