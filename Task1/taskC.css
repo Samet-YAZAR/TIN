@@ -2,40 +2,40 @@
   box-sizing: border-box;
 }
 .leftside,.rightside {
-  height: 100vh;
+  height: 50%;
   width: 100%;
   padding: 10px;
   padding-right: 15px;
 }
 .leftside {
-  background-color: red;
+  background-color: #F0F8FF;
 }
 .rightside {
-  background-color: red;
+  background-color: #F0F8FF;
 }
 
-@@media (min-width:1500px) {
+@media (min-width:1500px) {
 
       .leftside,.rightside{
         height: 100vh;
       }
 }
-
-.oval {
+img {
   width: 400px;
   height: 250px;
-  color: #111;
   border-radius: 50%;
-  text-align: center;
-  font-size: 90px;
-  float: left;
-  shape-outside: ellipse();
-  padding: 10px;
-  background-color: MediumPurple;
   background-clip: content-box;
+  float: left;
+  padding: 10px;
+  shape-outside: ellipse();
+  font-size: 90px;
 }
+
 .p {
   margin: 10px;
+}
+.a {
+  color: grey;
 }
 span {
   padding-top: 50px;
