@@ -102,3 +102,5 @@ d. text should be equidistant from all of the border lines
 
 e. articles should contain links, which change color when
 mouse cursor hovers over them
+
+![Task1](Assets/taskF.PNG)
