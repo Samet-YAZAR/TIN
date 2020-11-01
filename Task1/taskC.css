@@ -4,12 +4,14 @@
 .leftside,.rightside {
   height: 100vh;
   width: 100%;
+  padding: 10px;
+  padding-right: 15px;
 }
 .leftside {
   background-color: red;
 }
 .rightside {
-  background-color: grey;
+  background-color: red;
 }
 
 @@media (min-width:1500px) {
@@ -18,7 +20,7 @@
         height: 100vh;
       }
 }
-/*
+
 .oval {
   width: 400px;
   height: 250px;
@@ -32,8 +34,12 @@
   background-color: MediumPurple;
   background-clip: content-box;
 }
+.p {
+  margin: 10px;
+}
 span {
   padding-top: 50px;
   display: inline-block;
 }
-*/
+
+/**/
