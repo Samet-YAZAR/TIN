@@ -28,11 +28,11 @@ img {
   float: left;
   padding: 10px;
   shape-outside: ellipse();
-  font-size: 90px;
 }
 
-.p {
+p {
   margin: 10px;
+  clear: none;
 }
 .a {
   color: grey;
