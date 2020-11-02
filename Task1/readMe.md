@@ -41,7 +41,6 @@ f. text area
 
 g. submit and reset buttons
 
-![Task1](Assets/taskB.PNG)
 
 # Assignment C
 
@@ -65,6 +64,8 @@ It should meet the following requirements:
 
 2. Define colors for field labels (mandatory fields should have different
 color from other fields)
+
+![Task1](Assets/taskB.PNG)
 
 # Assignment E
 
