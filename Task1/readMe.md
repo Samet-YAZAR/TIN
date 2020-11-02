@@ -41,6 +41,8 @@ f. text area
 
 g. submit and reset buttons
 
+![Task1](Assets/taskB.PNG)
+
 # Assignment C
 
 Create a CSS stylesheet for HTML page from Assignment A.

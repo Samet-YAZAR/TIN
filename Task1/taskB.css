@@ -53,9 +53,9 @@
   grid-template-rows: auto auto auto;
 
   grid-template-areas:
-  "form checkbox submit-reset "
   "header header header "
-  "text-area radio-button drop-down ";
+  "form checkbox  submit-reset "
+  "text-area radio-button  drop-down ";
 background-color: black;
 
   /* 300px 80px 210px 210px */
