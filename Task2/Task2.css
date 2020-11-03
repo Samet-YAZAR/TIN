@@ -6,6 +6,7 @@
 body {
   //font types
   background-color: #F0FFFF;
+  height: 100vh;
 }
 header {
 text-align: center;
@@ -20,10 +21,35 @@ header img {
   height:15vh ;
 }
 main {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
+  min-height: calc(100vh - (188px + 58px));
 }
 .leftside .galary {
+  margin: 20px;
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
 }
+.rightside .text {
+  margin:20px;
+  padding:10px;
+  display: flex;
+  flex-direction: row;
+}
+ p {
+   font-size: 22px;
+   margin:5px;
+   padding:5px ;
+ }
+ footer{
+   background-color: #333;
+   text-align: center;
+ }
+ footer h1 {
+   color: white;
+ }
+ .oval {
+   float: left;
+ }
