@@ -7,6 +7,7 @@ body {
   //font types
   background-color: #F0FFFF;
   height: 100vh;
+
 }
 header {
 text-align: center;
@@ -49,7 +50,27 @@ main {
  }
  footer h1 {
    color: white;
+
  }
- .oval {
+ .oval .up {
+   display: flex;
+   flex-direction: row;
+ }
+ .up .left, .up .right{
+   width: 50%;
+ }
+
+ .up .right {
+   margin-top: 10px;
+ }
+.down img{
    float: left;
+   width: 10vw ;
+   height:15vh ;
  }
+span {
+  color : red;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+}
