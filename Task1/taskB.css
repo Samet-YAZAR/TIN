@@ -1,24 +1,52 @@
 
 .leftside,.rightside {
-  height: 50%;
+  height: 100%;
   width: 100%;
   padding: 10px;
   padding-right: 15px;
+
 }
+
 .leftside {
-  background-color: #F0F8FF;
+  text-align: center;
+  background-color:grey;
 }
 .rightside {
+  text-align: center;
   background-color: grey;
+}
+main{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+
 }
 
 body {
   font-family: Arial;
-  background-color: #f1f1f1;
+  background-color: grey;
   position: relative;
   /*gidip main e position relative verdim
   ancak body ye vermem gerekiyorki uzerinde oynama
   yapabileyim.*/
   min-height: 100vh;
   padding-bottom: 80px;
+}
+.item {
+
+  background-color: #F5F5DC;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+/*biz  daha bir ust katman
+olan main i sekillendirmeden
+article i olusturmaya calistik
+burada bizr ders distan ice dogru
+hareket etmemiz gerekiyor.
+ve yukaridaki gibi bir tanim
+egrekmiyor
+ancak background verip
+padding ve margin aryarlanmasi
+yapilabilr.
+*/
 }
