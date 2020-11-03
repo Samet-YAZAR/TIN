@@ -36,17 +36,22 @@ main {
 .rightside .text {
   margin:20px;
   padding:10px;
+
   display: flex;
   flex-direction: row;
 }
- p {
+ p{
    font-size: 22px;
    margin:5px;
    padding:5px ;
+
  }
+
  footer{
    background-color: #333;
    text-align: center;
+   padding:20px;
+   z-index: 1;
  }
  footer h1 {
    color: white;
@@ -73,4 +78,11 @@ span {
   font-size: 30px;
   margin: 10px;
   padding: 10px;
+}
+.p3 .down,.p4 .down {
+  margin-top: 20px;
+}
+.down span {
+  float:right;
+  margin: 40px;
 }
