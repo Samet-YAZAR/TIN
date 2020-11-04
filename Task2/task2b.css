@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  //font types
+  background-color: #F0FFFF;
+  height: 100vh;
+
+
+}
+header {
+text-align: center;
+}
+header img {
+  width: 20vw ;
+  height:25vh ;
+  box-shadow: 5px 5px 5px grey;
+ transform: rotate(7deg);
+ }
+ header h1 {
+   font-size: 40px;
+   margin-top: 20px;
+ }
+
+.galary img {
+  width: 10vw ;
+  height:15vh ;
+}
+
+main {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 500px 1200px;
+  grid-template-rows: auto;
+  min-height: calc(100vh - (188px + 58px));
+}
+
+.leftside .galary {
+  display: grid;
+  grid-template-columns:200px 200px;
+  grid-template-rows: repeat(4,200px);
+}
+.rightside .text {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px  ;
+  grid-template-rows: 500px 500px ;
+  grid-template-areas:
+  "p1 p3 p2 p4";
+}
+p{
+   font-size: 10px;
+   margin:5px;
+   padding:5px ;
+
+ }
+.p1 {
+  grid-area: p1;
+  display: grid;
+  grid-template-columns: 1fr ;
+  width:300px;
+  align-content: flex-start;
+}
+.p2 {
+    grid-area: p2
+    display: grid;
+      width:300px;
+}
+.p3 {
+    grid-area: p3;
+    display: grid;
+      width:300px;
+}
+.p4 {
+    grid-area: p4;
+    display: grid;
+      width:300px;
+}
+
+
+
+ .p1 .up {
+   display: grid;
+     grid-template-columns: 1fr 1fr  ;
+     align-content: flex-end;
+
+ }
+.p1 .down {
+
+}
+ .up .right {
+   margin-top: 10px;
+ }
+
+.down img{
+   float: left;
+   width: 10vw ;
+   height:15vh ;
+ }
+span {
+
+  color : red;
+  font-size: 20px;
+
+}
+
+.p3 .down,.p4 .down {
+  margin-top: 20px;
+}
+
+.down span {
+  float:right;
+  margin: 10px;
+}
+
+h1, span {
+
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+@media (max-width: 800px) {
+  main {
+
+      display: flex;
+      flex-direction: column-reverse;
+  }
+}
+
+ footer{
+   background-color: #333;
+   text-align: center;
+   padding:20px;
+   z-index: 1;
+ }
+ footer h1 {
+   color: white;
+
+ }
+
+ figcaption, p {
+   font-family: "Courier New", Courier, monospace;
+ }
