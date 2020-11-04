@@ -11,5 +11,14 @@ Use Flexbox and other properties to create a webpage meeting the following requi
 •	(option) import two fonts, use one for headers and pulled quotes, second for main text and captions
 •	Background, colors – it is up to you
 •	Following pages contain example screenshots from a page meeting above requirements
+
+![Task2](Assets/taska_body.PNG)
+
+![Task2](Assets/max_width.PNG)
+
+![Task2](Assets/footer.PNG)
+
+
+
 ###Assignment B
 Build a page that meets requirements from Assignment A, but using Grid
