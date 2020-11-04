@@ -1,6 +1,6 @@
-#Internet Technologies
-##– Lab #3: HTML / XHTML + CSS
-###Assignment A
+# Internet Technologies
+## – Lab #3: HTML / XHTML + CSS
+### Assignment A
 Use Flexbox and other properties to create a webpage meeting the following requirements:
 •	Header, using an image with rounded corners, rotated and casting shadow + text
 •	Gallery, located on the left, containing images with captions (use tags figure and figcaption!)
@@ -20,5 +20,5 @@ Use Flexbox and other properties to create a webpage meeting the following requi
 
 
 
-###Assignment B
+### Assignment B
 Build a page that meets requirements from Assignment A, but using Grid
