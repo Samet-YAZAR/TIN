@@ -22,3 +22,9 @@ Use Flexbox and other properties to create a webpage meeting the following requi
 
 ### Assignment B
 Build a page that meets requirements from Assignment A, but using Grid
+
+![Task2](Assets/taskb_body.PNG)
+
+![Task2](Assets/max_width.PNG)
+
+![Task2](Assets/footerB.PNG)
