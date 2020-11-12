@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function findLongestWord(str){
+        var array = str.split(' ');
+        var longestWord=0;
+
+        for(var i=0; i< array.length ; i++ ){
+          if(array[i].length > longestWord){
+            longestWord =array[i];
+          }
+        }
+        return longestWord;
+      }
+
+    / alert(findLongestWord("Theeeeeee quick brown fox jumped over the lazy dog"));
+      console.log(findLongestWord("Theeeeeee quick brown fox jumped over the lazy dog"));
+    </script>
+
+
+  </body>
+</html>
