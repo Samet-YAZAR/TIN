@@ -2,7 +2,7 @@
 	<head>
 
 		/*
-		
+
 		*/
 		<script>
 			function PalindromeNumber()
@@ -46,20 +46,48 @@
 
 
 		</script>
+		<style>
+			body {
+				background-color: gold;
+			}
+
+			h1{
+				text-align: center;
+			}
+			main .main-body {
+				display: flex;
+				flex-direction:column;
+				align-content: center;
+			}
+			.input {
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+			}
+			.button {
+				margin-top: 20px;
+			}
+
+		</style>
 	</head>
 	<body>
 		<br>
-		<h1>Whether a number is Palindrome or not</h1>
-		<div class="number">
-				Enter The Number :<input type="text" name="n" id = "N"/>
-		</div>
-		<div class="string">
-				Enter The String :<input type="text" name="s" id = "S"/>
-		</div>
+		<h1>Whether a Number/ String is Palindrome or not</h1>
+	<main>
+		<div class="main-body">
+				<div class="input">
+						Enter The Number :<input type="text" name="n" id = "N"/>
+						Enter The String :<input type="text" name="s" id = "S"/>
+				</div>
 
-		<hr color="cyan">
-		<br>
-		<center><button onClick="PalindromeNumber()">CHECK Polindrome Number</button>
-		<center><button onClick="PalindromeString()">CHECK Polindrome String</button>
+				<div class="button">
+					<center><button onClick="PalindromeNumber()">CHECK Polindrome Number</button>
+					<center><button onClick="PalindromeString()">CHECK Polindrome String</button>
+				</div>
+		</div>
+	</main>
+
+
+
 	</body>
 </html>
