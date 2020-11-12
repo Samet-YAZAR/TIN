@@ -1,0 +1,65 @@
+<html>
+	<head>
+
+		/*
+		
+		*/
+		<script>
+			function PalindromeNumber()
+			{
+				var rem, temp, final = 0;
+				var number = Number(document.getElementById("N").value);
+
+				temp = number;
+				while(number>0)
+				{
+					rem = number%10;
+					number = parseInt(number/10);
+					final = final*10+rem;
+				}
+				if(final==temp)
+				{
+					window.alert("The inputed number is Palindrome");
+				}
+				else
+				{
+					window.alert("The inputted number is not palindrome");
+				}
+			}
+
+			function PalindromeString() {
+					var str = document.getElementById("S").value;
+					 var re = /[^A-Za-z0-9]/g;
+
+					 str = str.toLowerCase().replace(re, '');
+					 var len = str.length;
+					 for (var i = 0; i < len/2; i++) {
+							 if (str[i] !== str[len - 1 - i]) {
+
+									window.alert("The inputed string is not Palindrome");
+							   }
+					 }
+
+					 window.alert("The inputted string is palindrome");
+			}
+
+
+
+		</script>
+	</head>
+	<body>
+		<br>
+		<h1>Whether a number is Palindrome or not</h1>
+		<div class="number">
+				Enter The Number :<input type="text" name="n" id = "N"/>
+		</div>
+		<div class="string">
+				Enter The String :<input type="text" name="s" id = "S"/>
+		</div>
+
+		<hr color="cyan">
+		<br>
+		<center><button onClick="PalindromeNumber()">CHECK Polindrome Number</button>
+		<center><button onClick="PalindromeString()">CHECK Polindrome String</button>
+	</body>
+</html>
