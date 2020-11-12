@@ -7,12 +7,16 @@
   <body>
 
     <script>
-// Convert string to array
-// Sort array
-// Convert back array to string
+    function customSortfunc(a,b){
+    var lca = a.toLowerCase(), lcb = b.toLowerCase();
+    return lca > lcb ? 1 : lca < lcb ? -1 : 0;
 
+    }
+    var string='webmaster';
+    alert(string.split('').sort(customSortfunc).join(''));
     </script>
 
+    // output is = abeemrstw
     <main>
       <div class="h1">
         <h1>Alphabetical Order function </h1>
