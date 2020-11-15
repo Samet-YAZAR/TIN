@@ -1,4 +1,5 @@
-# Internet Technologies – Lab ## 5: JavaScript continued
+# Internet Technologies –
+## Lab5: JavaScript continued
 
 Write functions listed below – one file should contain implementation of a single task + example of use, files named 5a, 5b and so on. Use console.log to print the results.
 
