@@ -5,14 +5,15 @@ function Student(firstName, lastName, id, grades) {
     this.grades = grades;
 
     this.averageGrade = function () {
+        var sum = 0;
+
         if (grades.length === 0)
             return 0;
-      var sum = 0;
-      for( var i = 0; i < grades.length; i++ ){
-          sum += parseInt( grades[i], 10 ); //10 stands for decimal
-      }
+        for( var i = 0; i < grades.length; i++ ){
+            sum += parseInt( grades[i], 10 ); //10 stands for decimals
+        }
 
-      return (sum/grades.length);
+        return (sum/grades.length);
     }
 
     this.printsStudentAndGradesAverage = function () {
