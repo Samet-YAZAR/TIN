@@ -6,11 +6,13 @@ let player = {
   dateofBirth : new Date("1996/03/25"),
   age : function() {
       var currentDate = new Date();
-     return currentDate.getFullYear() - dateofBirth.getFullYear();
+      var cr = currentDate.getFullYear();
+      var d = this.dateofBirth.getFullYear();
+      return (cr-d);
   },
 
   adulthood : function () {
-    return  (this.age > 18 ? "Adult": "Child");
+    return  this.age > 18 ? "Adult": "Child" ;
   }
 
 }
@@ -20,4 +22,5 @@ let player = {
      console.log("name : " + pName + "\nvalue : " + property + "\ntype : " + typeof property + "\n" );
    }
  }
+
 printProperties(player);
