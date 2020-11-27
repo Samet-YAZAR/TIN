@@ -1,21 +1,19 @@
-//
+var userOne= {
+  name: "Samet",
+  email:"yzr.samet@..",
+	//login = function(){} or
+	login(){
+		console.log(this.email + "logged in ");
+		//this in this curcle bracets refers to userOne object,
+	},
 
-let player = {
-  firstName:'Samet',
-  lastName: 'YAZAR',
-  dateofBirth : new Date("1996/03/25"),
-  age : function() {
-      var currentDate = new Date();
-      var cr = currentDate.getFullYear();
-      var d = this.dateofBirth.getFullYear();
-      return (cr-d);
-  },
+	logout(){
+	console.log(this.email +"logged out");
+	}
 
-  adulthood : function () {
-    return  this.age > 18 ? "Adult": "Child" ;
-  }
+	//here this refers to Window object.
+};
 
-}
  function printProperties(object) {
    for(let pName in object) {
      let property = object[pName];
@@ -23,4 +21,4 @@ let player = {
    }
  }
 
-printProperties(player);
+printProperties(userOne);
