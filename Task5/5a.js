@@ -4,14 +4,14 @@ let player = {
   firstName:'Samet',
   lastName: 'YAZAR',
   dateofBirth : new Date("1996/03/25"),
-  age : function() {
+  age() {
       var currentDate = new Date();
       var cr = currentDate.getFullYear();
       var d = this.dateofBirth.getFullYear();
       return (cr-d);
   },
 
-  adulthood : function () {
+  adulthood() {
     return  this.age > 18 ? "Adult": "Child" ;
   }
 
