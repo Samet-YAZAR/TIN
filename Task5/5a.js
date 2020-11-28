@@ -1,4 +1,3 @@
-//
 
 let player = {
   firstName:'Samet',
@@ -15,7 +14,6 @@ let player = {
     return  this.age > 18 ? "Adult": "Child" ;
   }
 
-}
  function printProperties(object) {
    for(let pName in object) {
      let property = object[pName];
@@ -23,4 +21,4 @@ let player = {
    }
  }
 
-printProperties(player);
+printProperties(userOne);
