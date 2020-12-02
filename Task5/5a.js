@@ -11,7 +11,7 @@ let player = {
   },
 
   adulthood: function () {
-    return  this.age > 18 ? "Adult": "Child" ;
+    return  this.age() > 18 ? "Adult": "Child" ;
   }
 
 }
@@ -23,4 +23,4 @@ let player = {
    }
  }
 
-printProperties(userOne);
+printProperties(player);
