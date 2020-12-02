@@ -9,17 +9,19 @@ function Student(firstName, lastName,id,grades){
 
     this.printFullName= function(){
        return this.firstName +" "+ this.lastName;
-    };
-
-    this.averageGrade = function(){
-      //use Array iteration methods
-          return 34;
     }
 
+    this.mean = function() {
+      var total = grades.reduce(function (total, item) {
+        	return total + item;
+        });
+    return total/(this.grades.length);
+  }
+
     this.printGrade= function(){
-          console.log(firstName,lastName, "grades average:", this.averageGrade);
+
+          return this.firstName + this.lastName + " average of grades : " + this.mean() ;
     }
 }
 
 let student1 = new Student("Samet","Yazar",1,[1,2,3,4,5]);
-student1.printGrade();
