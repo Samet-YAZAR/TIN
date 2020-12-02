@@ -13,6 +13,8 @@ c) Create a prototype of a student object using initializer. The object should c
 
 d) Extend task B with getter for average grade property and getter and setter for student’s full name
 
+![Proto](Assets/getterSetter.PNG)
+
 e) Task D with classes
 
 f) Create class Person with first and last name, as well as getter and setter for full name. Rewrite Student class from task E to extend class Person
