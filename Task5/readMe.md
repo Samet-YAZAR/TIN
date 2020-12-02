@@ -9,7 +9,7 @@ b) Implement a constructor function, creating objects representing students – 
 
 c) Create a prototype of a student object using initializer. The object should contain an array with list of courses each student should take. Write a function creating new objects based on this prototype, setting their first and last name and id properties.
 
-![proto]("Task5/Assets/proto.PNG")
+![Proto](Assets/proto.PNG)
 
 d) Extend task B with getter for average grade property and getter and setter for student’s full name
 
