@@ -17,4 +17,6 @@ d) Extend task B with getter for average grade property and getter and setter fo
 
 e) Task D with classes
 
+![Proto](Assets/taske.PNG)
+
 f) Create class Person with first and last name, as well as getter and setter for full name. Rewrite Student class from task E to extend class Person
