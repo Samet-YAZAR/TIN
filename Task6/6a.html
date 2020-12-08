@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title> Fahrenheit and Centigrade Temperatures</title>
+    <link rel="stylesheet" href="6a.css">
+  </head>
+  <body>
+
+  	<div id="wrapper">
+    	    	<div id="doc">
+    	    		<h1 class="title">Fahrenheit and Centigrade Temperatures</h1>
+              <form id="calc-form" autocomplete="off">
+                <table class="calc2">
+                  <tbody>
+                    <tr>
+                      <td><label for="x">Fahrenheit:</label></td>
+                      <td><input type="text" inputmode="numeric"
+                        id="x" name="x" class="intext" required="" autofocus="" tabindex="1"></td>
+                      <td class="mathsymbol">°F</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td colspan="2">
+                        <button type="button" title="Convert" class="btn"
+                        tabindex="2" onclick="calc()"><img src="/lib/icons/glyphicons_all/glyphicons_halflings/glyphicons_halflings_030_refresh.png" alt=""> Convert</button>
+                        <button type="reset" title="Reset" class="btn"
+                         tabindex="3"><img src="/lib/icons/glyphicons_all/glyphicons_halflings/glyphicons_halflings_013_remove.png" alt=""> Reset</button>
+                        <button type="button" title="Swap conversion" class="btn"
+                        tabindex="4" onclick="location.href='celsius-to-fahrenheit.html';"><img src="/lib/icons/glyphicons_all/glyphicons_halflings/glyphicons_halflings_114_retweet.png" alt=""> Swap</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Celsius:</td>
+                      <td><input type="text" name="y" class="outtext" readonly="" tabindex="5"></td>
+                      <td class="mathsymbol">°C</td>
+                    </tr>
+                </tbody>
+                </table>
+              </form>
+    	    	</div>
+  </div>
+  <script src="6a.js"></script>
+  </body>
+</html>
