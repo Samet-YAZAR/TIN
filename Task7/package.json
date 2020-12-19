@@ -1,0 +1,16 @@
+{
+  "name": "node7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "7a.js",
+  "scripts": {
+    "devA": "nodemon 7a",
+    "devB": "nodemon 7b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
