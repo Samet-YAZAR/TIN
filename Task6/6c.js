@@ -1,18 +1,20 @@
 
 function validateForm(){
+var result = true;
 
   if(!validateName(name[0].value)){
     document.getElementsByClassName("warningMessage")[0].style.display= "block";
+    result = false;
   }
   if(!validateName(name[1].value)){
     document.getElementsByClassName("warningMessage")[1].style.display= "block";
+    result = false;
   }
   if(!validateEmail(email.value)){
     document.getElementsByClassName("warningMessage")[2].style.display= "block";
+    result = false;
   }
-  alert(validateName(name[0].value));
-  alert(validateName(name[1].value));
-  alert(validateName(email.value));
+return result;
 }
 
 const email = document.getElementById('email');
