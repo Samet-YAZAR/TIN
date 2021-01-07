@@ -3,31 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="6c.css">
   </head>
   <body>
 
-      <form action="" id="myform" >
-      <p>
-      	<label for='FirstName'>First Name:</label>
-      	<input type="text" id="FirstName" name="FirstName" />
-      </p>
-      <p>
-      	<label for='LastName'>Last Name:</label>
-      	<input type="text" id="LastName" name="LastName" />
-      </p>
-      <p>
-      	<label for='EMail'>EMail:</label>
-      	<input type="text" id="EMail" name="EMail" />
-      </p>
-      <p>
-      	<label for='Phone'>Phone:</label>
-      	<input type="text" id="Phone" name="Phone" />
-      </p>
-      <p>
-      	<label for='Address'>Address:</label>
-      	<textarea cols="20" rows="5" id="Address" name="Address"></textarea>
-      </p>
+      <form  id="myform"  onsubmit="validateForm();" >
+        	<label for='firstName' id="firstname_label">First Name:</label>
+          <label class="warningMessage">First Name should contain only letters</label>
+        	<input type="text" id="firstName" class="name" />
 
+
+        	<label for='lastName'id="lastname-label" >Last Name:  </label>
+          <label class="warningMessage">Last Name should contain only letters</label>
+        	<input type="text" id="lastName" class="name"/>
+
+        	<label for='email' id="email-label">Email:</label>
+          <label class="warningMessage">Email should be like something@something.sth</label>
+        	<input type="email" id="email"  />
+
+        	<label for='Phone'>Phone:</label>
+        	<input type="number" id="phone"  />
+
+          <input type="submit" id="submit"/>
+      </form>
       <script src="6c.js" charset="utf-8"></script>
   </body>
 </html>

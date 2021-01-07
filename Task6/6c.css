@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+
+#myform {
+  max-width: 500px;
+  margin: 1rem auto;
+  border: 2px solid #5F9EA0;
+  padding: 1rem 0.25rem;
+  font-size: 14px;
+  margin-bottom: 0.2rem;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 0.50rem 0 auto;
+}
+input {
+  width: 100%;
+  color: black;
+  font-size: 18px;
+
+}
+input:hover {
+    background-color: #E6E6FA;
+}
+
+.warningMessage {
+  display: none;
+  color: red;
+  font-size: 12;
+}
+
+#submit {
+  width: auto;
+  margin: .5rem 0.1rem;
+  color: Black;
+  font-weight: bold;
+
+}
