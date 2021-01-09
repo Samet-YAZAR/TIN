@@ -37,10 +37,11 @@ okSubmit.addEventListener('click',function(e){
     e.preventDefault();
     const isValid = validateForm();
     if(isValid){
-      WritetoTable();
+      const tr = WritetoTable(name, email, number);
+      uppendRow(tr);
     }
 });
-function createMarkup(name, email, number) {
+function WritetoTable(name, email, number) {
     return`<tr>
           <td>${name[0].value}</td>
           <td>${name[1].value}</td>
@@ -49,6 +50,6 @@ function createMarkup(name, email, number) {
 
   </tr>`
 }
-function uppendRow(){
-  myform.appendChild(createMarkup(number,email,phone));
+function uppendRow(tr){
+  myform.appendChild(tr);
 }
