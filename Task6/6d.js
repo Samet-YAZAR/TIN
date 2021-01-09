@@ -35,6 +35,20 @@ const myform = document.querySelector('.myTable');
 
 okSubmit.addEventListener('click',function(e){
     e.preventDefault();
-    validateForm();
-
+    const isValid = validateForm();
+    if(isValid){
+      WritetoTable();
+    }
 });
+function createMarkup(name, email, number) {
+    return`<tr>
+          <td>${name[0].value}</td>
+          <td>${name[1].value}</td>
+          <td>${email.value}</td>
+          <td>${phone.value}</td>
+
+  </tr>`
+}
+function uppendRow(){
+  myform.appendChild(createMarkup(number,email,phone));
+}

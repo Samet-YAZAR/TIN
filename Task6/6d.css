@@ -13,6 +13,28 @@
   font-family: sans-serif;
   border-radius: 5px;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body table {
+  width: 325px;
+  padding: 10px;
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+table td, th {
+  margin: 5px;
+  border: 1px solid black;
+  text-align: center;
+
+}
+tr {
+    align-items: center;
+}
 
 
 label {
